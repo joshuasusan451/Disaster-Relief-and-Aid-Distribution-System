@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
+[contracts.aid-shipment-tracking]
+path = 'contracts/aid-shipment-tracking.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.relief-org-registry]
 path = 'contracts/relief-org-registry.clar'
 clarity_version = 2
