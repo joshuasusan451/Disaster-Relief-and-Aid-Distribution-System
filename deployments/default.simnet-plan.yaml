@@ -59,4 +59,9 @@ plan:
             emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
             path: contracts/relief-org-registry.clar
             clarity-version: 2
+        - emulated-contract-publish:
+            contract-name: volunteer-management
+            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            path: contracts/volunteer-management.clar
+            clarity-version: 2
       epoch: "2.5"
